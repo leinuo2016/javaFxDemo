@@ -51,7 +51,7 @@ public class LoginController implements Initializable {
         System.out.println(nameStr+pwdStr+"--"+user.getPwd());
         User user = userService.findById(Long.valueOf(1));
         if(Objects.isNull(user)){
-            info.setText("用户不存在");
+            info.setText("用户不存在!");
             info.disableProperty().setValue(false);
         }
         DemoApplication.showView(ToolView.class, Modality.NONE);
