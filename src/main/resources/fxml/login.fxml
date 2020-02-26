@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo.controller.LoginController">
+   <children>
+      <Button fx:id="login" layoutX="254.0" layoutY="313.0" mnemonicParsing="false" onAction="#login" text="登 录" textFill="#6b13c9" textOverrun="CLIP">
+         <font>
+            <Font name="Ani" size="13.0" />
+         </font></Button>
+      <TextField fx:id="name" layoutX="224.0" layoutY="254.0" prefHeight="23.0" prefWidth="155.0" />
+      <TextField fx:id="password" layoutX="224.0" layoutY="209.0" prefHeight="23.0" prefWidth="155.0" />
+      <Label layoutX="157.0" layoutY="209.0" prefHeight="23.0" prefWidth="67.0" text="姓 名" />
+      <Label layoutX="157.0" layoutY="254.0" prefHeight="23.0" prefWidth="67.0" text="密 码" />
+      <Label layoutX="224.0" layoutY="98.0" prefHeight="32.0" prefWidth="147.0" text="JavaFx SpringBoot" />
+      <Label fx:id="info" disable="true" layoutX="220.0" layoutY="156.0" prefHeight="15.0" prefWidth="161.0" textAlignment="CENTER" textFill="#b26436" />
+   </children>
+</AnchorPane>

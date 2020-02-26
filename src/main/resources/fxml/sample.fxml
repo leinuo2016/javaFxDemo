@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.web.HTMLEditor?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="709.0" prefWidth="870.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo.controller.MainStageController">
+   <children>
+      <Button fx:id="myButton" layoutX="88.0" layoutY="34.0" mnemonicParsing="false" onAction="#restart" prefHeight="50.0" prefWidth="115.0" text="重启" />
+      <HTMLEditor fx:id="myEditor" htmlText="&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body contenteditable=&quot;true&quot;&gt;&lt;/body&gt;&lt;/html&gt;" layoutX="88.0" layoutY="92.0" prefHeight="205.0" prefWidth="527.0" />
+      <TextField fx:id="myTextField" layoutX="88.0" layoutY="398.0" prefHeight="31.0" prefWidth="217.0" />
+      <Button layoutX="468.0" layoutY="379.0" onAction="#showView" mnemonicParsing="false" prefHeight="50.0" prefWidth="125.0" text="showView" />
+   </children>
+</AnchorPane>
